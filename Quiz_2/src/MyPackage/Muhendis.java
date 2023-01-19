@@ -1,0 +1,36 @@
+package MyPackage;
+
+public abstract class Muhendis implements Maas{
+	public int id;
+	public String ad;
+	public String soyad;
+	public int yas;
+	public int cs;
+	public static int syc = 98;
+	
+	
+	public Muhendis() {
+		
+	}
+	
+	
+	public Muhendis(String ad, String soyad, int yas, int cs) {
+		super();
+		syc = syc + 2;
+		this.id = syc;
+		this.ad = ad;
+		this.soyad = soyad;
+		this.yas = yas;
+		this.cs = cs;
+	}
+	
+	@Override
+	public double MaasHesapla() {
+		return MaasHesapla();
+	}
+	
+	
+	
+	
+	
+}
